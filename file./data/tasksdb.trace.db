@@ -1,0 +1,55 @@
+2025-11-17 19:59:00.010784+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SPRING_SESSION" not found; SQL statement:
+DELETE FROM SPRING_SESSION
+WHERE EXPIRY_TIME < ?
+ [42102-232]
+2025-11-17 20:00:00.005612+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SPRING_SESSION" not found; SQL statement:
+DELETE FROM SPRING_SESSION
+WHERE EXPIRY_TIME < ?
+ [42102-232]
+2025-11-17 20:01:00.001935+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SPRING_SESSION" not found; SQL statement:
+DELETE FROM SPRING_SESSION
+WHERE EXPIRY_TIME < ?
+ [42102-232]
+2025-11-17 20:02:00.001890+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SPRING_SESSION" not found; SQL statement:
+DELETE FROM SPRING_SESSION
+WHERE EXPIRY_TIME < ?
+ [42102-232]
+2025-11-17 20:03:00.002523+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SPRING_SESSION" not found; SQL statement:
+DELETE FROM SPRING_SESSION
+WHERE EXPIRY_TIME < ?
+ [42102-232]
+2025-11-17 20:04:00.001842+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SPRING_SESSION" not found; SQL statement:
+DELETE FROM SPRING_SESSION
+WHERE EXPIRY_TIME < ?
+ [42102-232]
+2025-11-17 20:05:00.001912+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SPRING_SESSION" not found; SQL statement:
+DELETE FROM SPRING_SESSION
+WHERE EXPIRY_TIME < ?
+ [42102-232]
+2025-11-17 20:06:00.014674+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SPRING_SESSION" not found; SQL statement:
+DELETE FROM SPRING_SESSION
+WHERE EXPIRY_TIME < ?
+ [42102-232]
+2025-11-17 20:07:00.002674+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SPRING_SESSION" not found; SQL statement:
+DELETE FROM SPRING_SESSION
+WHERE EXPIRY_TIME < ?
+ [42102-232]
+2025-11-17 20:08:00.002500+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SPRING_SESSION" not found; SQL statement:
+DELETE FROM SPRING_SESSION
+WHERE EXPIRY_TIME < ?
+ [42102-232]
+2025-11-17 20:09:00.001464+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SPRING_SESSION" not found; SQL statement:
+DELETE FROM SPRING_SESSION
+WHERE EXPIRY_TIME < ?
+ [42102-232]
