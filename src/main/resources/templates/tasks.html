@@ -7,21 +7,6 @@
 </head>
 <body>
 <h1>Task Manager</h1>
-<div class="container mt-4">
-    <h2>Add New Task</h2>
-    <form action="/tasks/add" method="post" class="row g-3">
-
-        <div class="col-auto">
-            <input type="text" name="description" class="form-control" placeholder="Task description" required>
-        </div>
-
-        <div class="col-auto">
-            <button type="submit" class="btn btn-primary mb-3">Add Task</button>
-        </div>
-
-    </form>
-</div>
-
 <table class="table table-stripped table-bordered mt-4">
     <thead class="table-dark">
     <tr>
@@ -52,5 +37,19 @@
     </tbody>
 
 </table>
+<div class="container mt-4">
+    <h2>Add New Task</h2>
+    <form action="/tasks/add" method="post" class="row g-3">
+
+        <div class="col-auto">
+            <input type="text" name="description" class="form-control" placeholder="Task description" required>
+        </div>
+
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Add Task</button>
+        </div>
+
+    </form>
+</div>
 </body>
 </html>
