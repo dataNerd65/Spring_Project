@@ -18,4 +18,10 @@ public class ViewController {
         model.addAttribute("tasks", taskRepository.findAll());
         return "tasks"; // maps to tasks.html
     }
+    // java
+    @GetMapping("/")
+    public String rootRedirect() {
+        return "redirect:/tasks-view";
+    }
+
 }
