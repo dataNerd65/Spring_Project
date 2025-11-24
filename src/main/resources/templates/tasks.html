@@ -7,20 +7,50 @@
 </head>
 <body>
 <h1>Task Manager</h1>
-<table border="1">
-    <tr>
-        <th>Title</th>
-        <th>Description</th>
-        <th>Priority</th>
-        <th>Completed</th>
-    </tr>
-    <tr th:each="task : ${tasks}">
-        <td th:text="${task.title}"></td>
-        <td th:text="${task.description}"></td>
-        <td th:text="${task.priority}"></td>
-        <td th:text="${task.completed}"></td>
+<div class="container mt-4">
+    <h2>Add New Task</h2>
+    <form action="/tasks/add" method="post" class="row g-3">
 
+        <div class="col-auto">
+            <input type="text" name="description" class="form-control" placeholder="Task description" required>
+        </div>
+
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Add Task</button>
+        </div>
+
+    </form>
+</div>
+
+<table class="table table-stripped table-bordered mt-4">
+    <thead class="table-dark">
+    <tr>
+        <th>ID</th>
+        <th>Description</th>
+        <th>Completed</th>
+        <th>Actions</th>
     </tr>
+    </thead>
+    <tbody>
+    <tr th:each="task : ${tasks}">
+        <td th:text="${task.id}"></td>
+        <td th:text="${task.description}"></td>
+        <td>
+            <span th:text="${task.completed ? 'Yes' : 'No'}"></span>
+        </td>
+        <td>
+            <!--Complete button -->
+            <a th:href="@{'/tasks/complete/' + ${task.id}}" class="btn btn-success btn-sm">
+                ✓ Complete
+            </a>
+            <a th:href="@{'/tasks/delete/' + ${task.id}}" class="btn btn-danger btn-sm ms-2">
+                ✗ Delete
+            </a>
+
+        </td>
+    </tr>
+    </tbody>
+
 </table>
 </body>
 </html>
